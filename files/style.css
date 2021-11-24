@@ -1,0 +1,700 @@
+/*	Table OF Contents
+==========================
+ 1.Banner area
+ 2.Benefits
+ 3.Plans
+ 4.Questions
+ 5.Reviews
+ 6.Footer
+=========================== */
+
+/* ============================
+	 1.Banner area
+	 =========================== */
+	
+	#lp-pom-block-10 {
+	width:100%;
+	height:735px;
+	background-image:url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-color:#f3f3f3;
+	background-attachment: fixed;
+		background-position:top center;
+		background-size:cover;
+
+	position:relative;
+}
+.main-head p
+{
+	padding-top:100px;
+	
+}
+.main-head h1
+{
+	margin-top: 160px;
+    text-align: center;
+    color: #fff;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight:bold;
+	text-transform:uppercase;
+}
+
+.logo span{
+    font-family: Mistral;
+    font-size: 62px;
+    color: #fff;
+    text-align: center;
+    font-weight:normal;
+	text-transform:none;
+}
+
+
+.fancy span{display:inline-block;
+position:relative;
+
+}
+.fancy span:before,.fancy span:after{content:"";position:absolute;
+height:5px;
+border-bottom:1px solid white;
+border-top:1px solid white;
+top:16px;
+width:30px;}
+.fancy span:before{
+	right:100%;
+margin-right:15px;
+}
+.fancy span:after{
+	left:100%;
+	margin-left:15px;
+	}
+
+
+.main-head h2
+{
+	    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight:normal;	
+}
+#arrow
+{
+ margin-top: 60px;	
+}
+
+
+/* ============================
+	 2.Benefits
+	 =========================== */
+
+#benefits-container {
+    padding: 65px 0px 85px 0px;
+    background-color: #f3f3f3;
+}
+
+.benefits {
+	width:100%;
+}
+
+.benefits h1 {
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #333333;
+	font-weight:normal;
+	padding-bottom:10px;
+	
+}
+.benefits p {
+	
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color:#333333;
+	line-height:24px;
+	font-weight:normal;
+}
+
+
+
+.benefits-list {
+	margin-top: 25px;
+}
+.benefits-list span {
+	float: left;
+}
+.benefits-list h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #333333;
+	padding-left: 40px;
+}
+.benefits-list p {
+	padding-left: 40px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color:#666666;
+	line-height:24px;
+}
+.benefits-listIcon {
+	background:url(../images/tick.png) no-repeat center center;
+	width: 23px;
+	height:21px;
+	display: block;
+}
+
+
+
+.form-box
+{
+	
+    width: 100%;
+    height: auto;
+	margin-top: 25px;
+    position: relative;
+    border: 10px solid #ffffff;
+    background-color: #f3f3f3;
+    padding: 30px;
+    -webkit-box-shadow: 0px 0px 3px 0px rgb(204,204,204);
+    box-shadow: 0px 0px 3px 0px rgb(204,204,204);
+	
+}
+
+
+.request-box-head
+
+{
+	width:100%;
+	height:auto;
+	float:left;
+	font-size:22px;	
+text-align:left;
+margin-bottom:20px;
+color: #333;
+font-family: open sans;
+font-weight:normal;
+}
+.form-control {
+width: 100%;
+padding: 12px;
+font-family: Arial, Helvetica, sans-serif;
+border: 0px;
+margin-bottom: 20px;
+color:#666 !important;
+font-size: 14px;
+border-radius:0px;
+background-color:#fff;
+border:solid 1px #ccc;
+
+}
+.form-group
+{
+	width:100%;
+	height:auto;
+	float:left;
+	margin-bottom:4px;
+	
+}
+.form-btn {
+width: 100%;
+display: block;
+height: auto;
+padding: 14px;
+color: #fff;
+background-color: #009027;
+border: none;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size: 14px;
+outline: none;
+border-radius: 0px;
+text-transform:uppercase;
+
+}
+.form-control::-webkit-input-placeholder { color: #333333; }
+
+`.form-control:-moz-placeholder { color: #333333; }
+
+`.form-control::-moz-placeholder { color: #333333; }
+
+.form-control:-ms-input-placeholder { color: #333333; }
+
+
+/* ============================
+	 3.Plans
+	 =========================== */
+
+.plans-container {
+    padding: 85px 0px 55px 0px;
+    background-color: #fff;
+}
+
+.plans-head h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333333;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+.plans-head h2 {
+    margin-top: 0px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #666666;
+}
+
+.plan-round {
+    width: 116px;
+    height: 116px;
+    text-align: center;
+    
+    margin: 0 auto;
+}
+.plan-round img {
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+}
+
+.plan h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #009027;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.plan p {
+   
+    margin-bottom: 30px;
+    text-align: center;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight:normal;
+	line-height:24px;
+}
+
+ 
+/* ============================
+	 4.Questions
+  =========================== */
+
+#lp-pom-block-11 {
+    width: 100%;
+    height: 396px;
+    background-image: url(../images/phone-bg.jpg);
+    background-repeat: no-repeat;
+    background-color: #77bc7f;
+ 
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+
+.questions h1 {
+	margin-top: 90px;
+    margin-bottom: 25px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    text-transform: uppercase;
+	
+}
+
+.number {
+	margin-bottom: 25px;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+	
+	
+}
+.days {
+	margin-bottom: 25px;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    text-transform: uppercase;
+	
+}
+
+/* ============================
+	  5.Reviews
+  =========================== */
+
+
+.clientreview-container  {
+    padding: 80px 0px 70px 0px;
+    background-color: #fff;
+}
+
+.client-head h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333333;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+.client-head h2 {
+    margin-top: 0px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #666666;
+}
+
+
+.testimonial {
+	padding:0px;
+}
+.testimonial ul {
+	margin:0px;
+	padding:0px;
+}
+.testimonial ul li {
+	list-style-type:none;
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.testimonial ul li.clearfix {
+	margin:0px;
+}
+.testimonial blockquote {
+	border:1px solid #cccccc;
+	background-color:#fff;
+	position:relative;
+	margin:0px 0px 20px 0px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	clear:none;
+	background-image:none;
+	padding:15px;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666666;
+	font-style:italic;
+	line-height:24px;
+}
+.testimonial .arrowbubble {
+	position:absolute;
+	bottom: -16px;
+	left:70px;
+	background-image:url(../images/client-arrow.png);
+	background-repeat:no-repeat;
+	width:18px;
+	height:16px;
+	display:block;
+}
+.testimonial .testiimg {
+	float:left;
+	display:block;
+	width:50px;
+	height:50px;
+	position:relative;
+	margin-right:12px;
+	margin-left:52px;
+	margin-bottom:20px;
+}
+.testimonial .testiimg img {
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	background-color:#fff;
+	border:1px solid #eaeaea;
+}
+.testiinfo {
+	margin:28px 0px 0px 0px;
+	display:block;
+	font-size:15px;
+}
+.testiinfo h4 {
+	margin-bottom:2px;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333333;
+}
+.testiinfo span {
+	margin-bottom:2px;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+
+
+/* ============================
+	   6.Footer
+  =========================== */
+.request-container {
+    width: 100%;
+    height: 383px;
+    background-image: url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-color: #77bc7f;
+    background-position: top center;
+    position: relative;
+}
+
+.request-container h1 {
+	    margin-top: 120px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: #fff;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.request-btn-container {
+    width:280px;
+    
+    height: auto;
+	margin:0 auto;
+}
+.request-btn {
+   
+
+    
+    color: #fff;
+    
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    outline: none;
+    border-radius: 0px;
+    text-transform: uppercase;
+	text-align:center;
+}
+.request-btn a {
+color: #fff;
+padding: 16px 30px;
+text-decoration:none;	
+ background-color: #009027;
+}
+.request-btn a:hover {
+color: #fff;
+text-decoration:none;	
+}
+
+/* RESPONSIVE CSS
+	-------------------------------------------------- */
+
+	@media (min-width:480px) {
+		
+		.fancy span:before,.fancy span:after{
+
+top:16px;
+width:60px;}
+
+.benefits h1 {
+	
+	font-size: 36px;
+}
+
+.request-box-head
+
+{
+	
+	font-size:28px;	
+}
+.form-btn {
+font-size: 20px;
+}
+
+.questions h1 {
+	 margin-top: 85px;
+    font-size: 30px;
+	line-height: 40px;
+}
+.number {
+font-size: 28px;	
+}
+
+.days {
+ font-size: 30px;	
+}
+.request-btn-container {
+    width: 300px;
+}
+.request-btn {
+	
+ 
+    font-size: 20px;
+}
+
+
+	}
+
+ @media (min-width: 640px) {
+	 
+	 .main-head h1
+{
+	   
+    font-size: 42px;
+}
+	.fancy span:before,.fancy span:after{
+
+top:20px;
+width:100px;}
+ 
+.questions h1 {
+	 margin-top: 85px;
+    font-size: 32px;
+}
+.number {
+font-size: 24px;	
+}
+
+.days {
+ font-size: 16px;	
+}	
+	
+
+
+.plans-head h1 {
+  
+    font-size: 32px;
+}
+
+.plans-head h2 {
+
+    font-size: 22px;
+   
+}
+
+.client-head h1 {
+
+    font-size: 32px;
+}
+
+.client-head h2 {
+  
+    font-size: 22px;
+   
+}
+
+
+
+.request-container h1 {
+   
+    font-size: 28px;
+}
+
+
+
+
+	 
+ }
+
+
+
+
+
+ @media (min-width:768px) {
+	 
+	 
+	 .plans-head h1 {
+  
+    font-size: 36px;
+}
+
+
+.client-head h1 {
+
+    font-size: 36px;
+}
+	 
+
+    
+	 
+.request-container h1 {
+   margin-bottom: 55px;	
+    font-size: 36px;
+}
+
+
+
+	 
+ }
+ 
+
+
+ @media (min-width: 992px) {
+	 
+	 .questions h1 {
+	
+    font-size: 40px;
+} 
+	 
+	 
+ }
+
+ @media (min-width: 1200px) {	 
+	 
+ }
+
+ .main-head h3
+{
+	margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight:normal;	
+}
+
+ul {
+    /*border: solid 2px skyblue;
+    border-radius: 5px;*/
+    padding: 0.5em 1em 0.5em 2.3em;
+    position: relative;
+    justify-content: center;
+    display: grid;
+  }
+  
+  ul li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+    list-style-type: none!important;
+  }
+  
+ /* ul li:before {
+    font-family: FontAwesome;
+    content: "\f138";
+    position: absolute;
+    left : 1em;
+    color: skyblue;
+  }*/  
+
+	
