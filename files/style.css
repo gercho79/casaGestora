@@ -42,7 +42,7 @@
 
 .logo span{
     font-family: Mistral;
-    font-size: 62px;
+    font-size: 52px;
     color: #fff;
     text-align: center;
     font-weight:normal;
@@ -706,6 +706,9 @@ ul {
     color: #dddddd !important;
     font-size: 20px;
 } 
+
+.letraChica{
+	font-size: 10px; !important
 
 
 	
