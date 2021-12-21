@@ -684,9 +684,10 @@ font-size: 24px;
 ul {
     /*border: solid 2px skyblue;
     border-radius: 5px;*/
-    padding: 0.5em 1em 0.5em 2.3em;
+    padding: 0.5em 1em 0.5em 1.0em;
     position: relative;
     justify-content: center;
+    text-align: center;
     display: grid;
   }
   
